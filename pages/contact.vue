@@ -7,11 +7,14 @@
       <h2 class="subtitle is-size-4">
         連絡先はこちら
       </h2>
+      <h2></h2>
+
     </div>
   </section>
 </template>
 
 <script>
+
 export default {
   fetch ({store}) {
     store.commit('resetMenu')

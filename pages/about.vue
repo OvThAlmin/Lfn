@@ -1,4 +1,5 @@
 <template>
+<div>
   <section class="hero is-primary is-bold">
     <div class="hero-body">
       <h1 class="title is-size-2">
@@ -9,12 +10,23 @@
       </h2>
     </div>
   </section>
+  
+  <aboutme/>
+  <skills/>
+</div>
 </template>
 
 <script>
+import Aboutme from '~/components/Aboutme.vue'
+import Skills from '~/components/Skills.vue'
+
 export default {
-  fetch ({store}) {
+  fetch({ store }) {
     store.commit('resetMenu')
+  },
+  components: {
+    Aboutme,
+    Skills
   }
 }
 </script>
