@@ -12,18 +12,21 @@
   </section>
   
   <aboutme/>
+  <services/>
 </div>
 </template>
 
 <script>
 import Aboutme from '~/components/Aboutme.vue'
+import Services from '~/components/Services.vue'
 
 export default {
   fetch({ store }) {
     store.commit('resetMenu')
   },
   components: {
-    Aboutme
+    Aboutme,
+    Services
   }
 }
 </script>
