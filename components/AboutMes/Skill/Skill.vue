@@ -34,9 +34,9 @@
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong>Node.js:</strong>
+                      <strong>Java:</strong>
                       <br>
-                      <progress class="progress is-primary" value="75" max="100"></progress>
+                      <progress class="progress is-primary" value="100" max="100"></progress>
                     </p>
                   </div>
                 </div>
