@@ -1,19 +1,15 @@
 <template>
-    <!-- About -->
-  <section class="section" id="skills">
     <div class="columns has-same-height is-gapless">
       <profile/>
       <pic/>
-      
       <skill/>
     </div>
-  </section>
 </template>
 
 <script>
-import Skill from '~/components/Skill/Skill.vue'
-import Pic from '~/components/Skill/Pic.vue'
-import Profile from '~/components/Skill/Profile.vue'
+import Skill from '~/components/AboutMes/Skill/Skill.vue'
+import Pic from '~/components/AboutMes/Skill/Pic.vue'
+import Profile from '~/components/AboutMes/Skill/Profile.vue'
 
 export default {
   fetch({ store }) {
@@ -26,3 +22,11 @@ export default {
   }
 }
 </script>
+
+<style>
+.has-same-height .card {
+  height: 320px;
+  overflow: hidden;
+}
+</style>
+
