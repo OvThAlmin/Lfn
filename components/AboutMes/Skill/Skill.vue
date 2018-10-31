@@ -46,7 +46,7 @@
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong>HTML5/CSS3</strong>
+                      <strong>HTML5/CSS3:</strong>
                       <br>
                       <progress class="progress is-primary" value="95" max="100"></progress>
                     </p>
@@ -54,22 +54,42 @@
                 </div>
               </article>
 
-              <article class="media">
+              <article class="media" v-for="skill in skillSet.data" :key="skill.id">
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong>Databases</strong>
+                      <strong>{{ skill.title }}</strong>
                       <br>
                       <progress class="progress is-primary" value="66" max="100"></progress>
                     </p>
                   </div>
                 </div>
               </article>
+
             </div>
           </div>
         </div>
       </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      database: 'demo',
+      skillSet: {
+        data: [
+          {
+            title: 'Databases',
+            level: '66'
+          }
+        ],
+        name: ''
+      }
+    }
+  }
+}
+</script>
 
 
 <style>
@@ -83,3 +103,4 @@
   height: 4px !important;
 }
 </style>
+
