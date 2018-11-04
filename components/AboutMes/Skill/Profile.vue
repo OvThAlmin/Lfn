@@ -13,11 +13,11 @@
                 </tr>
                 <tr>
                   <td>Address:</td>
-                  <td>Guru's Lab</td>
+                  <td>Tokyo, Japan</td>
                 </tr>
                 <tr>
-                  <td>Phone:</td>
-                  <td>0123-456789</td>
+                  <td>Name:</td>
+                  <td>OvThAlmin</td>
                 </tr>
                 <tr>
                   <td>Email:</td>
@@ -27,10 +27,8 @@
             </div>
             <br>
             <div class="buttons has-addons is-centered">
-              <a href="#" class="button is-link">Github</a>
-              <a href="#" class="button is-link">LinkedIn</a>
-              <a href="#" class="button is-link">Twitter</a>
-              <a href="#" class="button is-link">CodeTrace</a>
+              <a href="https://github.com/OvThAlmin" class="button is-link">Github</a>
+              <a href="https://qiita.com/OvThAlmin" class="button is-link">Qiita</a>
             </div>
           </div>
         </div>
