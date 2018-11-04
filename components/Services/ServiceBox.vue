@@ -22,9 +22,9 @@ export default {
       skillSet: {
         data: [
           {
-            title: 'Infrastructure',
+            title: 'Front End Web Development',
             detail:
-              'Migrate Cassandra to MySQL by Aurora. Develop This page by Netlify.'
+              'Develop Front End using latest standards with HTML5/CSS3 with added funtionality using Angular and Nuxt.js.'
           },
           {
             title: 'Back End Web Development',
@@ -34,12 +34,11 @@ export default {
           {
             title: 'Database',
             detail:
-              'Develop and Design MySQL by Amazon Aurora and Cassandra databases.'
+              'Develop and Design MySQL in Amazon Aurora and Cassandra databases.'
           },
           {
-            title: 'Front End Web Development',
-            detail:
-              'Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and Vue.js.'
+            title: 'Infrastructure',
+            detail: 'Build and Deploy This page by Netlify.'
           }
         ],
         name: ''

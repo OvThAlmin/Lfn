@@ -6,61 +6,13 @@
             <h3 class="title is-4">Skills</h3>
             <div class="content">
 
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      <strong>JavaScript:</strong>
-                      <br>
-                      <progress class="progress is-primary" value="90" max="100"></progress>
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      <strong>Vue.js:</strong>
-                      <br>
-                      <progress class="progress is-primary" value="90" max="100"></progress>
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      <strong>Java:</strong>
-                      <br>
-                      <progress class="progress is-primary" value="100" max="100"></progress>
-                    </p>
-                  </div>
-                </div>
-              </article>
-
-              <article class="media">
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      <strong>HTML5/CSS3:</strong>
-                      <br>
-                      <progress class="progress is-primary" value="95" max="100"></progress>
-                    </p>
-                  </div>
-                </div>
-              </article>
-
               <article class="media" v-for="skill in skillSet.data" :key="skill.id">
                 <div class="media-content">
                   <div class="content">
                     <p>
                       <strong>{{ skill.title }}</strong>
                       <br>
-                      <progress class="progress is-primary" value="66" max="100"></progress>
+                      <progress class="progress is-primary" :value="skill.level" max="100"></progress>
                     </p>
                   </div>
                 </div>
@@ -80,8 +32,28 @@ export default {
       skillSet: {
         data: [
           {
-            title: 'Databases',
-            level: '66'
+            title: 'JavaScript:',
+            level: 70
+          },
+          {
+            title: 'Angular:',
+            level: 55
+          },
+          {
+            title: 'Nuxt.js:',
+            level: 40
+          },
+          {
+            title: 'Java/Spring:',
+            level: 100
+          },
+          {
+            title: 'Databases -MySQL',
+            level: 95
+          },
+          {
+            title: 'Databases -NoSQL',
+            level: 80
           }
         ],
         name: ''
