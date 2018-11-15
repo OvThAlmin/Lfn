@@ -11,7 +11,7 @@
     <div class="navbar-menu" id="navMenu" :class="{'is-active': $store.state.isMenuActive}">
       <div class="navbar-end">
         <nuxt-link to="/" class="navbar-item">トップ</nuxt-link>
-        <nuxt-link to="/about" class="navbar-item">Lfnとは？</nuxt-link>
+        <nuxt-link to="/about" class="navbar-item">About me</nuxt-link>
         <nuxt-link to="/contact" class="navbar-item">お問い合わせ</nuxt-link>
       </div>
     </div><!-- navbar-menu END -->

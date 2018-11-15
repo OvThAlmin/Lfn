@@ -6,7 +6,7 @@
         About
       </h1>
       <h2 class="subtitle is-size-4">
-        ねこ
+        My Portfolio
       </h2>
     </div>
   </section>
