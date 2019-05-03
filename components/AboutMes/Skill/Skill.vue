@@ -1,4 +1,4 @@
-g<template>
+<template>
   <div class="column">
     <!-- Skills -->
     <div class="card">
