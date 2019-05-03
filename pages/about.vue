@@ -6,7 +6,6 @@
         <h2 class="subtitle is-size-4">ねこ</h2>
       </div>
     </section>
-
     <aboutme/>
     <services/>
     <contact/>
