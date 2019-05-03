@@ -21,7 +21,7 @@
             </tr>
             <tr>
               <td>Email:</td>
-              <td>minion@despicable.me</td>
+              <td>ovthalmin@gmail.com</td>
             </tr>
           </table>
         </div>
